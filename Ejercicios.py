@@ -41,6 +41,50 @@ def Ej10(producto_precio):
     return 0.16 * producto_precio
 #Ej11 no, tiene que ser finito, pi tiene infinitos decimales, no terminaria
 #Ej12 recursivamente?
+
+'''{ej11 ¿Podemos llamar algoritmo a un procedimiento que escriba en una cinta de papel todos los números decimales de pi?'''
+'''Respuesta:
+'''
+'''def main():
+    print("No, debido a que la definición de algoritmo establece que es un conjunto ordenado de operaciones \nsistemáticas que permiten hacer un cálculo y hallar la solución a un problema \nPi al tener números infinitos después del punto decimal haría que nunca se detuviera el bucle o la recursión \npor lo tanto no lo podemos llamar algoritmo")
+main()}'''
+
+'''{ej12 ¿Qué expresiones Python permiten, utilizando el menor número posible de paréntesis, efectuar en el mismo orden los
+cálculos representados con estos árboles sintácticos?'''
+
+'''def main():
+  #Expresiones correspondientes:
+  #a)
+    a = (1 + 2) - 3 + 4
+  #b)
+    b = (1 - 2) + (3 - 4)
+  #c)
+    c = 2 - (3 + 4) + 1
+
+    print("El valor de a es: {0}\nEl valor de b es: {1}\nEl valor de c es: {2}".format(a,b,c))
+
+main()}'''
+
+'''{14 ¿Qué resultados se obtendrán al evaluar las siguientes expresiones Python?
+a) 2 + 3 + 1 + 2
+b) 2 + 3 * 1 + 2
+c) (2 + 3) * 1 + 2
+d) (2 + 3) * (1 + 2)
+e) +---6
+f) -+-+6    '''
+
+'''def main():
+
+    a = 2 + 3 + 1 + 2
+    b = 2 + 3 * 1 + 2
+    c = (2 + 3) * 1 + 2
+    d = (2 + 3) * (1 + 2)
+    e = +---6
+    f = -+-+6
+    print("Los resultados son:\na = {0}\nb = {1}\nc = {2}\nd = {3}\ne = {4}\nf = {5}".format(a,b,c,d,e,f))
+
+main()}'''
+
 def Ej15():
     a = 2 + 3*(6/2)
     b = (4 + 6) / (2 + 3)
